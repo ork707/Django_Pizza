@@ -1,0 +1,14 @@
+git add .
+git commit -m " changed"
+git push
+git pull
+
+echo "venv/" >> .gitignore
+
+git add .gitignore
+git commit -m "Ignore virtual environment"
+git push
+
+ls -la ~/.ssh
+
+git status
